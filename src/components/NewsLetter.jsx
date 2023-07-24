@@ -14,8 +14,10 @@ export default function NewsLetter() {
         />
       </div>
       <div className="news-letter-text">
-        <h1>Stay Updated</h1>
-        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <h1>Stay Updated!</h1>
+        <p className="paragraph">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
         <ul>
           <li className="list-item">
             <img src="/icon-list.svg" alt="" />
@@ -31,7 +33,7 @@ export default function NewsLetter() {
           </li>
         </ul>
 
-        <div className="input-container">
+        <div className="input-container flex-col">
           <label htmlFor="email">Email address</label>
           <input
             className="sub-text-input"
